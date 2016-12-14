@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Online Banking", "Online Banking\Online Banking.modelproj", "{22EB0BFF-B70A-4CF5-8CB9-D463AB15EA60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBanking", "OnlineBanking\OnlineBanking.csproj", "{59781949-D586-4D92-BE09-3E6D63BF8319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{6EC530C2-9B2F-48B3-8A21-4C24FD0662D1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{3EB05F29-CED8-4C95-831B-C3EA28432B91}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\OnlineBanking-WAWS-dev.json = PublishScripts\Configurations\OnlineBanking-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "ClassDocumentation", "ClassDocumentation\ClassDocumentation.shfbproj", "{4041C3CB-EBD8-4D25-951C-C31984459EAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBanking.DAL", "OnlineBanking.DAL\OnlineBanking.DAL.csproj", "{2A80A862-30CD-4CCE-AD20-7155E49D94A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBanking.DataModel", "OnlineBanking.DataModel\OnlineBanking.DataModel.csproj", "{920790B0-FFF9-482C-B267-AA65577870F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBanking.BusinessProcess", "OnlineBanking.BusinessProcess\OnlineBanking.BusinessProcess.csproj", "{F8C8879F-A8C8-42C1-A95B-9E85553E146F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{28DC4404-92B4-4D5D-B8A5-6BD2AF3C9D08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22EB0BFF-B70A-4CF5-8CB9-D463AB15EA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22EB0BFF-B70A-4CF5-8CB9-D463AB15EA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22EB0BFF-B70A-4CF5-8CB9-D463AB15EA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22EB0BFF-B70A-4CF5-8CB9-D463AB15EA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59781949-D586-4D92-BE09-3E6D63BF8319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59781949-D586-4D92-BE09-3E6D63BF8319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59781949-D586-4D92-BE09-3E6D63BF8319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59781949-D586-4D92-BE09-3E6D63BF8319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4041C3CB-EBD8-4D25-951C-C31984459EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4041C3CB-EBD8-4D25-951C-C31984459EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4041C3CB-EBD8-4D25-951C-C31984459EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A80A862-30CD-4CCE-AD20-7155E49D94A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A80A862-30CD-4CCE-AD20-7155E49D94A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A80A862-30CD-4CCE-AD20-7155E49D94A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A80A862-30CD-4CCE-AD20-7155E49D94A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920790B0-FFF9-482C-B267-AA65577870F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920790B0-FFF9-482C-B267-AA65577870F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920790B0-FFF9-482C-B267-AA65577870F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920790B0-FFF9-482C-B267-AA65577870F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C8879F-A8C8-42C1-A95B-9E85553E146F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C8879F-A8C8-42C1-A95B-9E85553E146F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C8879F-A8C8-42C1-A95B-9E85553E146F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C8879F-A8C8-42C1-A95B-9E85553E146F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DC4404-92B4-4D5D-B8A5-6BD2AF3C9D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DC4404-92B4-4D5D-B8A5-6BD2AF3C9D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DC4404-92B4-4D5D-B8A5-6BD2AF3C9D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DC4404-92B4-4D5D-B8A5-6BD2AF3C9D08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EB05F29-CED8-4C95-831B-C3EA28432B91} = {6EC530C2-9B2F-48B3-8A21-4C24FD0662D1}
+	EndGlobalSection
+EndGlobal

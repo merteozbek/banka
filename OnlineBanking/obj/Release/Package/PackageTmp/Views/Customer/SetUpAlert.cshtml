@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+}
+
+
+<form method="post">
+
+    Enter the Account Number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
+    <input type="text" name="accountNumber" />
+    <br />
+    
+    Enter the ammount below which you want the alert - 
+    <input type="text" name="alertAmmount" />
+    <br />
+   
+    <input type="submit" value="Set Alert" />
+</form>
+
+<h2>@ViewBag.setUpAlertMessage</h2>

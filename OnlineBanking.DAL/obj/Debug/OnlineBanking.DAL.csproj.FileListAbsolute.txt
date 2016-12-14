@@ -1,0 +1,24 @@
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.dll.config
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\EntityFramework.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\OnlineBanking.DataModel.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\EntityFramework.xml
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\obj\Debug\OnlineBanking.DAL.csprojResolveAssemblyReference.cache
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\obj\Debug\OnlineBanking.DAL.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\obj\Debug\OnlineBanking.DAL.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.dll.config
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\OnlineBanking.DataModel.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\OnlineBanking.DataModel.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\obj\Debug\OnlineBanking.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\obj\Debug\OnlineBanking.DAL.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DAL\obj\Debug\OnlineBanking.DAL.pdb

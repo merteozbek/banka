@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "GetCheckAccountInput";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css">
+
+<script>
+    $(function () {
+        $("#fromTime").datepicker();
+    });
+</script>
+<script>
+
+    $(function () {
+        $("#toTime").datepicker();
+    });
+</script>
+
+<h2>Enter Account Information</h2>
+<h2>@ViewBag.theMessage</h2>
+
+<form method="post">
+
+
+    <br />
+
+    <table style="width:100%;padding-top: 0px;margin-top: 0px;">
+        <col width="20%">
+        <col width="80%">
+
+        <tr><td>Enter Account Number</td><td><input type="text" name="accountNumber" id="accountNumber" /></td></tr>
+        <tr><td>Enter From Date: </td><td><input type="text" name="fromTime" id="fromTime"></td></tr>
+        <tr><td>Enter To Date: </td><td><input type="text" name="toTime" id="toTime"></td></tr>
+    </table>
+
+    <br />
+
+
+
+   
+    <input type="submit" value="Check Acount" />
+</form>
+
+<div>
+    <dl class="dl-horizontal"></dl>
+</div>
+

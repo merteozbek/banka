@@ -1,0 +1,9 @@
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\bin\Debug\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\bin\Debug\OnlineBanking.DataModel.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\obj\Debug\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\obj\Debug\OnlineBanking.DataModel.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DataModel\bin\Debug\OnlineBanking.DataModel.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DataModel\bin\Debug\OnlineBanking.DataModel.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DataModel\obj\Debug\OnlineBanking.DataModel.csprojResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DataModel\obj\Debug\OnlineBanking.DataModel.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.DataModel\obj\Debug\OnlineBanking.DataModel.pdb

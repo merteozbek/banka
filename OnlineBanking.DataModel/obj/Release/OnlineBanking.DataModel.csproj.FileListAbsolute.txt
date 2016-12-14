@@ -1,0 +1,5 @@
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\bin\Release\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\bin\Release\OnlineBanking.DataModel.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\obj\Release\OnlineBanking.DataModel.csprojResolveAssemblyReference.cache
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\obj\Release\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\obj\Release\OnlineBanking.DataModel.pdb

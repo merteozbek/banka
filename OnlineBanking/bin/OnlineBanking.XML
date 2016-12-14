@@ -1,0 +1,973 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OnlineBanking</name>
+    </assembly>
+    <members>
+        <member name="T:OnlineBanking.BundleConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.FilterConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="filters"></param>
+        </member>
+        <member name="T:OnlineBanking.EmailService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.EmailService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.SmsService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.SmsService.SendAsync(Microsoft.AspNet.Identity.IdentityMessage)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.ApplicationUserManager">
+            <summary>
+            Configure the application user manager used in this application. UserManager is defined in ASP.NET Identity and is used by the application.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.ApplicationUserManager.#ctor(Microsoft.AspNet.Identity.IUserStore{OnlineBanking.Models.ApplicationUser})">
+            <summary>
+            
+            </summary>
+            <param name="store"></param>
+        </member>
+        <member name="M:OnlineBanking.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{OnlineBanking.ApplicationUserManager},Microsoft.Owin.IOwinContext)">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.ApplicationSignInManager">
+            <summary>
+            Configure the application sign-in manager which is used in this application.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.ApplicationSignInManager.#ctor(OnlineBanking.ApplicationUserManager,Microsoft.Owin.Security.IAuthenticationManager)">
+            <summary>
+            
+            </summary>
+            <param name="userManager"></param>
+            <param name="authenticationManager"></param>
+        </member>
+        <member name="M:OnlineBanking.ApplicationSignInManager.CreateUserIdentityAsync(OnlineBanking.Models.ApplicationUser)">
+            <summary>
+            
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.ApplicationSignInManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{OnlineBanking.ApplicationSignInManager},Microsoft.Owin.IOwinContext)">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.RouteConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="T:OnlineBanking.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Startup.ConfigureAuth(Owin.IAppBuilder)">
+            <summary>
+            For more information on configuring authentication, please visit http://go.microsoft.com/fwlink/?LinkId=301864
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:OnlineBanking.Startup.Configuration(Owin.IAppBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:OnlineBanking.Controllers.AccountController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.#ctor(OnlineBanking.ApplicationUserManager,OnlineBanking.ApplicationSignInManager)">
+            <summary>
+            
+            </summary>
+            <param name="userManager"></param>
+            <param name="signInManager"></param>
+        </member>
+        <member name="P:OnlineBanking.Controllers.AccountController.SignInManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Controllers.AccountController.UserManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.Login(System.String)">
+            <summary>
+            GET: /Account/Login
+            </summary>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.Login(OnlineBanking.Models.LoginViewModel,System.String)">
+            <summary>
+            POST: /Account/Login
+            </summary>
+            <param name="model"></param>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.VerifyCode(System.String,System.String,System.Boolean)">
+            <summary>
+            GET: /Account/VerifyCode
+            </summary>
+            <param name="provider"></param>
+            <param name="returnUrl"></param>
+            <param name="rememberMe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.VerifyCode(OnlineBanking.Models.VerifyCodeViewModel)">
+            <summary>
+            POST: /Account/VerifyCode
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.Register">
+            <summary>
+            GET: /Account/Register
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.Register(OnlineBanking.Models.RegisterViewModel)">
+            <summary>
+            POST: /Account/Register
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ConfirmEmail(System.String,System.String)">
+            <summary>
+            GET: /Account/ConfirmEmail
+            </summary>
+            <param name="userId"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ForgotPassword">
+            <summary>
+            GET: /Account/ForgotPassword
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ForgotPassword(OnlineBanking.Models.ForgotPasswordViewModel)">
+            <summary>
+            POST: /Account/ForgotPassword
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ForgotPasswordConfirmation">
+            <summary>
+            GET: /Account/ForgotPasswordConfirmation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ResetPassword(System.String)">
+            <summary>
+            GET: /Account/ResetPassword
+            </summary>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ResetPassword(OnlineBanking.Models.ResetPasswordViewModel)">
+            <summary>
+            POST: /Account/ResetPassword
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ResetPasswordConfirmation">
+            <summary>
+            GET: /Account/ResetPasswordConfirmation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ResetLockout(OnlineBanking.Models.ResetPasswordViewModel)">
+            <summary>
+            POST: /Account/ResetAccessFailedCount
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ResetAccessFailedCountConfirmation">
+            <summary>
+            GET: /Account/ResetAccessFailedCountConfirmation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ExternalLogin(System.String,System.String)">
+            <summary>
+            POST: /Account/ExternalLogin
+            </summary>
+            <param name="provider"></param>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.SendCode(System.String,System.Boolean)">
+            <summary>
+            GET: /Account/SendCode
+            </summary>
+            <param name="returnUrl"></param>
+            <param name="rememberMe"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.SendCode(OnlineBanking.Models.SendCodeViewModel)">
+            <summary>
+            POST: /Account/SendCode
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ExternalLoginCallback(System.String)">
+            <summary>
+            GET: /Account/ExternalLoginCallback
+            </summary>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ExternalLoginConfirmation(OnlineBanking.Models.ExternalLoginConfirmationViewModel,System.String)">
+            <summary>
+            POST: /Account/ExternalLoginConfirmation
+            </summary>
+            <param name="model"></param>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.LogOff">
+            <summary>
+            POST: /Account/LogOff
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.ExternalLoginFailure">
+            <summary>
+            GET: /Account/ExternalLoginFailure
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.AccountController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:OnlineBanking.Controllers.CustomerController">
+            <summary>
+            The CustomerInterface class manages the presentation layer for the customer.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.AccountStatement(System.String,System.String)">
+            <summary>
+            return the customers account stateent for the given month
+            </summary>
+            <param name="accountNumber">The acocunt number to get the statement for</param>
+            <param name="month">the numeric month for the statement transactions</param>
+            <returns>Redirect to DisplayAccountInfo</returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CheckAccountInput(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Redirects to the DisplayAccountInfo method so we can get the view and model.
+            </summary>
+            <param name="accountNumber">The account number to display</param>
+            <param name="fromTime">The begining date for the transaction list</param>
+            <param name="toTime">The ending date for the transaction list</param>
+            <returns>redirect to DisplayAccountInfo view</returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CheckAccountInput">
+            <summary>
+            Returns the view that allows the user to enter the acocunt number and the begin and end dates for transactions
+            </summary>
+            <returns>view</returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CheckAlert">
+             <summary>
+            If the money in any of the accounts of the person who is logged in , is
+            less than the set up alert , then update the message as below, 
+            otherwise update as 'Currently money in your accounts is above the alert ammount.'
+             </summary>
+             <returns>view</returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.SetUpAlert">
+            <summary>
+            Present the user with a view that will allow them to enter alert information.
+            </summary>
+            <returns>view</returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CheckBalance(System.String)">
+            <summary>
+            Calculate the balance in the account - account , and update the balanceMessage property accordingy !!
+            </summary>
+            <param name="account"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.DisplayAccountInfo(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Displays the account balance and transactions between the given dates
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CheckImageRequest">
+            <summary>
+            Allows the customer to obtain an image of the check for a given transation.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.DisplayCheckImage">
+            <summary>
+            Displays the image of a check.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.AccountStatementRequest">
+            <summary>
+            allows the customer to request a statement on their account for a given month.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.AccountAlertsInput">
+            <summary>
+            Allows the customer to enter alerts data to create alerts.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.DisplayStatus">
+            <summary>
+            Displays the status of the last request.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CustomerProfileInput(System.String,System.String,System.String)">
+            <summary>
+            Allows the customer to see their profile information.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.CustomerProfileInput">
+            <summary>
+            Allows the customer to see their profile information.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.CustomerController.TransferFunds(System.String,System.String,System.String)">
+             <summary>
+            Debit the ammount from the fromAccount and credit it to toAccount
+            And update the transferFundSuccess as 'success' on a successfull transaction
+            and update it as 'failure' in case of a failed transaction.
+             </summary>
+             <param name="fromAccount"></param>
+             <param name="toAccount"></param>
+             <param name="ammount"></param>
+             <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.HomeController.About">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.HomeController.Contact">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.Controllers.ManageController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.#ctor(OnlineBanking.ApplicationUserManager,OnlineBanking.ApplicationSignInManager)">
+            <summary>
+            
+            </summary>
+            <param name="userManager"></param>
+            <param name="signInManager"></param>
+        </member>
+        <member name="P:OnlineBanking.Controllers.ManageController.SignInManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Controllers.ManageController.UserManager">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.RemoveLogin(System.String,System.String)">
+            <summary>
+            POST: /Manage/RemoveLogin 
+            </summary>
+            <param name="loginProvider"></param>
+            <param name="providerKey"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.AddPhoneNumber">
+            <summary>
+            GET: /Manage/AddPhoneNumber 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.AddPhoneNumber(OnlineBanking.Models.AddPhoneNumberViewModel)">
+            <summary>
+            POST: /Manage/AddPhoneNumber
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.EnableTwoFactorAuthentication">
+            <summary>
+            POST: /Manage/EnableTwoFactorAuthentication 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.DisableTwoFactorAuthentication">
+            <summary>
+            POST: /Manage/DisableTwoFactorAuthentication 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.VerifyPhoneNumber(System.String)">
+            <summary>
+            GET: /Manage/VerifyPhoneNumber 
+            </summary>
+            <param name="phoneNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.VerifyPhoneNumber(OnlineBanking.Models.VerifyPhoneNumberViewModel)">
+            <summary>
+            POST: /Manage/VerifyPhoneNumber
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.RemovePhoneNumber">
+            <summary>
+            GET: /Manage/RemovePhoneNumber 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.ChangePassword">
+            <summary>
+            GET: /Manage/ChangePassword
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.ChangePassword(OnlineBanking.Models.ChangePasswordViewModel)">
+            <summary>
+            POST: /Manage/ChangePassword
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.SetPassword">
+            <summary>
+            GET: /Manage/SetPassword
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.SetPassword(OnlineBanking.Models.SetPasswordViewModel)">
+            <summary>
+            POST: /Manage/SetPassword
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.ManageLogins(System.Nullable{OnlineBanking.Controllers.ManageController.ManageMessageId})">
+            <summary>
+            GET: /Manage/ManageLogins
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.LinkLogin(System.String)">
+            <summary>
+            POST: /Manage/LinkLogin
+            </summary>
+            <param name="provider"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.LinkLoginCallback">
+            <summary>
+            GET: /Manage/LinkLoginCallback 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineBanking.Controllers.ManageController.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:OnlineBanking.Controllers.ManageController.ManageMessageId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.AddPhoneSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.ChangePasswordSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.SetTwoFactorSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.SetPasswordSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.RemoveLoginSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.RemovePhoneSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Controllers.ManageController.ManageMessageId.Error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Controllers.OperatorController">
+            <summary>
+            The OperatorInterface class manages the presentation layer for the operator.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.OperatorController.UnlockCustomerID">
+            <summary>
+            Allows the operator to unlock the customers ID.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.OperatorController.DisplayStatus">
+            <summary>
+            Displays the status of the last request.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.OperatorController.DisplayCustomerProfile">
+            <summary>
+            Displays the customers profile information.
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Controllers.OperatorController.RequestCustomerProfile">
+            <summary>
+            Allows the operator to see the customer’s profile information.
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.MvcApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.MvcApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ExternalLoginConfirmationViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ExternalLoginConfirmationViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ExternalLoginListViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ExternalLoginListViewModel.ReturnUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.SendCodeViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.SendCodeViewModel.SelectedProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.SendCodeViewModel.Providers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.SendCodeViewModel.ReturnUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.SendCodeViewModel.RememberMe">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.VerifyCodeViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyCodeViewModel.Provider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyCodeViewModel.Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyCodeViewModel.ReturnUrl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyCodeViewModel.RememberBrowser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyCodeViewModel.RememberMe">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ForgotViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ForgotViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.LoginViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.LoginViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.LoginViewModel.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.LoginViewModel.RememberMe">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OnlineBanking.Models.LoginViewModel.Address">
+            <summary>
+            The customers address
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.LoginViewModel.accounts">
+            <summary>
+            The list of accounts for this customer.
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.RegisterViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.RegisterViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.RegisterViewModel.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.RegisterViewModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ResetPasswordViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ResetPasswordViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ResetPasswordViewModel.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ResetPasswordViewModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ResetPasswordViewModel.Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ForgotPasswordViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ForgotPasswordViewModel.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ApplicationUser">
+            <summary>
+            You can add profile data for the user by adding more properties to your ApplicationUser class, please visit http://go.microsoft.com/fwlink/?LinkID=317594 to learn more. 
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Models.ApplicationUser.GenerateUserIdentityAsync(Microsoft.AspNet.Identity.UserManager{OnlineBanking.Models.ApplicationUser})">
+            <summary>
+            
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.Models.ApplicationDbContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Models.ApplicationDbContext.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OnlineBanking.Models.ApplicationDbContext.Create">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:OnlineBanking.Models.IndexViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.IndexViewModel.HasPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.IndexViewModel.Logins">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.IndexViewModel.PhoneNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.IndexViewModel.TwoFactor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.IndexViewModel.BrowserRemembered">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ManageLoginsViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ManageLoginsViewModel.CurrentLogins">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ManageLoginsViewModel.OtherLogins">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.FactorViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.FactorViewModel.Purpose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.SetPasswordViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.SetPasswordViewModel.NewPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.SetPasswordViewModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ChangePasswordViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ChangePasswordViewModel.OldPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ChangePasswordViewModel.NewPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ChangePasswordViewModel.ConfirmPassword">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.AddPhoneNumberViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.AddPhoneNumberViewModel.Number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.VerifyPhoneNumberViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyPhoneNumberViewModel.Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.VerifyPhoneNumberViewModel.PhoneNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OnlineBanking.Models.ConfigureTwoFactorViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ConfigureTwoFactorViewModel.SelectedProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OnlineBanking.Models.ConfigureTwoFactorViewModel.Providers">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

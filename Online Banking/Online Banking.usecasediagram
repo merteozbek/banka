@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="e1dbb56f-5d10-41da-80e6-6cb03764b9c7" name="Online Banking" linkedPackageId="9471201d-7a5b-4e68-a386-a997af0f03be" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="fe046b66-5f30-4f26-bf8d-05a7092d51c4">
+      <elementDefinition Id="0fa071ad-4907-4c64-a453-d4b8eecabe07" />
+      <body>External Communication required to initiate Unlock Customer ID Use Case. Requires authentication.</body>
+      <annotatedElements>
+        <actorMoniker Id="e49725eb-822a-4bbf-a544-28dce6a170fc" LastKnownName="Customer" />
+        <actorMoniker Id="4a9596b1-27e4-48ed-9009-790932365a8d" LastKnownName="Operator" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="e49725eb-822a-4bbf-a544-28dce6a170fc" name="Customer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6261c427-660e-4c47-905b-ae068526eafb" />
+        <targetEnds>
+          <association Id="265f3126-8eb5-4659-aed6-794d63f78733" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Check Account" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d8d40e12-7c48-46fe-887c-b1a5a5dfa32f" LastKnownName="Check Account" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="795f770c-8790-4297-a568-7d1e76594d77" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f7bbd45e-29e9-4158-80fb-dff904d34c6f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd691c1e-7d4c-4b9a-8c56-99fbd052411c" name="Check Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24884c02-a0d9-4069-b748-c872bbfaa8a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="017370f5-ffb7-4322-8b6f-d748cfd60fb6" />
+          </association>
+          <association Id="26cc5ea9-27b1-4005-b6e9-503d14611442" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Transfer Funds" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7c351aee-cc15-4dfc-990b-a15d66eb9fee" LastKnownName="Transfer Funds" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e5c9e77-c672-4067-babb-d17b0168e7da" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9e9db4c1-835b-4802-ace2-eec7533f7407" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b377c9b-3c73-4745-88ac-b14f7a266e89" name="Transfer Funds" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d2ab60a7-8852-456c-88e4-68a859ca0ed3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1124a45f-a07d-414d-bea8-8405f9995e6a" />
+          </association>
+          <association Id="8f36f0e5-1e18-4d62-8463-172ce21ea66a" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="View Account Statement" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="efc5effc-cb75-4414-8912-c123e14a8ebc" LastKnownName="View Account Statement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="13f7e79f-77c6-49da-8743-c0e06c3862f2" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d2699df9-8876-438a-a3c5-41f3b7ce23b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="49e36d7b-70c4-46d2-b0c4-298092f5a536" name="View Account Statement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="57b2c146-460f-4d44-8388-9c7c0b5f8a7f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="743844c1-67d2-41ac-aff8-d08a5875d124" />
+          </association>
+          <association Id="5c5558a3-eae6-4c48-bfd0-4c00e46f7582" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Set Up Account Alerts" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="49167afd-5ae1-49e9-9bf0-60a5dfb52069" LastKnownName="Set Up Account Alerts" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4ebc776d-0aa9-4f2c-96fb-a5a73238c8d0" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9dac0d99-1102-4ebb-89f9-52e64c1da719" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c9f83891-9b49-4b8f-bbdc-82734e6a2ccb" name="Set Up Account Alerts" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="62c5260a-ccfa-4649-b5ad-d54e7f3d7af6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df0213a6-84a4-47a4-ad89-77e41f481569" />
+          </association>
+          <association Id="79595643-5cf6-44ce-94e7-75d04ce5c4a4" isDerived="false" sourceEndRoleName="Customer" targetEndRoleName="Update Customer Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1cb1e83c-0034-4492-bb8f-6eecd822a7d2" LastKnownName="Update Customer Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1ef8408f-5ff4-4b36-9f3e-209fbfe8369c" name="Customer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cef9b1b2-a566-449c-bb29-5cdc021fb27f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="abc64e42-817c-4534-8851-0912779d9400" name="Update Customer Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0652d8cc-a74e-4466-9b6e-39c96ab42224" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b214c136-5681-4366-8e92-bac40b6de0b2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4a9596b1-27e4-48ed-9009-790932365a8d" name="Operator" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3dbdde32-f3c9-4d2b-a942-6351b7961b21" />
+        <targetEnds>
+          <association Id="aeefca5b-ae9a-4dfd-8801-0b932f9ef0b3" isDerived="false" sourceEndRoleName="Operator" targetEndRoleName="Unlock Customer ID" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f9976387-ce0c-41a7-8436-abf11b79ba45" LastKnownName="Unlock Customer ID" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a6885aa2-5f38-4c04-acbf-d3935f4669fc" name="Operator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2f00a6dc-339b-4d05-878b-8ce8bd0c1fd9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5381d9e4-a65c-452c-b8a9-c096e366a13a" name="Unlock Customer ID" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="accd4ac0-e769-4625-a365-8c140545b1e7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3f44a7e-a0d4-4972-956f-6dbdc09c908c" />
+          </association>
+          <association Id="f59cc060-b6fd-4cd3-b67a-edb2ec61e8f8" isDerived="false" sourceEndRoleName="Operator" targetEndRoleName="Protect from Social Engineering" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="da9c73ce-e143-4ef2-be0d-5072a55ba0c0" LastKnownName="Protect from Social Engineering" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a98abf43-8a72-4ac0-a34d-960959fdf7e3" name="Operator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="09d55949-ea16-49a3-bdc2-4ef61fd6e6e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e960cc15-f965-47f2-9b51-3ce70e1119af" name="Protect from Social Engineering" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="95fff702-39b9-414f-8873-5d402559f32a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="af634af6-9e10-41da-b019-22a8298670d6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d8d40e12-7c48-46fe-887c-b1a5a5dfa32f" name="Check Account" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="43dbb1af-0597-4257-9232-399e559b18a9" />
+        <additions>
+          <include Id="ab860abf-3b32-4293-84a3-4822fc6e0b6a">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="b767d8f4-4e8b-4117-8835-a4c84c3573fb" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7c351aee-cc15-4dfc-990b-a15d66eb9fee" name="Transfer Funds" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6d4a7e49-a1cf-4090-8db4-31bbe6851df1" />
+        <additions>
+          <include Id="39da605a-06a1-442c-b1e1-622a8d1cbecd">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="4056399f-33a6-4d2f-8336-d1f0211fa38f" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="efc5effc-cb75-4414-8912-c123e14a8ebc" name="View Account Statement" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a" />
+        <additions>
+          <include Id="bfbd14f1-cd23-4714-901f-5ff8e2a85df8">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="e766f475-3918-4f4e-b7d5-bb70362d7df6" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="49167afd-5ae1-49e9-9bf0-60a5dfb52069" name="Set Up Account Alerts" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f8d79f53-e26a-4ee0-95cc-2b17ff1f81f2" />
+        <additions>
+          <include Id="3dd9969c-fabc-4dbb-a1e4-af0662027581">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="15c61f58-74fe-4378-98a6-57dc7fbaab8f" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1cb1e83c-0034-4492-bb8f-6eecd822a7d2" name="Update Customer Profile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7e85156b-e0f0-49c9-813e-810b6ff7b39b" />
+        <additions>
+          <include Id="fe255a56-06ab-47ce-97a7-831fb7c07a6f">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="bf933dfe-377b-49ee-a8c7-3f356d9a2a7f" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0e5b2514-1f74-499d-be62-6a2968022820" name="See Check Image" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7729263f-beb6-46d9-b0bd-a095ce6c07c6" />
+        <extendedCases>
+          <extend Id="e550ded4-874b-4b38-8ca5-3c2f5954f566">
+            <useCaseMoniker Id="d8d40e12-7c48-46fe-887c-b1a5a5dfa32f" LastKnownName="Check Account" />
+            <elementDefinition Id="aedd8771-3f06-4ce1-9e69-01bad402b0b3" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" name="Validate ID / Password" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4bf11146-8e1a-4143-a125-2ee066941ff6" />
+        <additions>
+          <include Id="175b214a-a827-4929-83e2-9d208ff6c611">
+            <useCaseMoniker Id="2164b94e-21ab-48aa-8337-de43a4255daf" LastKnownName="Protect Data in Transit" />
+            <elementDefinition Id="369502fe-581a-44e6-820c-d6c6924f0bc2" />
+          </include>
+          <include Id="8c528c87-070b-4508-af50-67b1b35ef032">
+            <useCaseMoniker Id="fbda18ef-560c-4474-8cca-222847bf3094" LastKnownName="Protect Data at Rest" />
+            <elementDefinition Id="59f5c71d-40c6-47c4-9f71-12e0a47b2013" />
+          </include>
+          <include Id="49328fbf-c0f6-4574-b493-31eb21ff7472">
+            <useCaseMoniker Id="6a41b372-24b1-4e61-acef-7aff1f5af56d" LastKnownName="Validate User Input" />
+            <elementDefinition Id="da67ce2b-aa2f-46a3-a31d-4b20d55e39ff" />
+          </include>
+          <include Id="3f8970a1-a554-4eed-a285-a618cc3ace4a">
+            <useCaseMoniker Id="86674aea-7e45-4368-9441-4700c49e8489" LastKnownName="Anti-Phishing verification" />
+            <elementDefinition Id="34b997a8-cfd9-4ba1-85bc-4db2e6d973b7" />
+          </include>
+          <include Id="04dbef27-604b-4f61-b6f6-8dd692f102ee">
+            <useCaseMoniker Id="28f7c553-5633-41ea-bdcc-0a58858ea4f1" LastKnownName="Prevent Caching in Browser" />
+            <elementDefinition Id="1514ab02-3b62-4fc8-b21a-b81da2772aaf" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f9976387-ce0c-41a7-8436-abf11b79ba45" name="Unlock Customer ID" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d5b2b583-d995-4baf-ab2c-68ae8a442a97" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="20437f71-9c68-45ae-aaed-52c4dbeacbe4" name="Unauthorized User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9951cc36-3f66-4f24-b2f7-648f3c5735cd" />
+        <targetEnds>
+          <association Id="136140af-641c-4919-af55-30433a1bdddf" isDerived="false" sourceEndRoleName="Observer" targetEndRoleName="Observe Account Information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9f83c9c5-2f47-4c6a-a68e-a8abea064fcd" LastKnownName="Observe Account Information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="607a2580-086e-4207-b093-3c4052c0610a" name="Observer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="777b759e-e358-40ec-a9ca-75b1cffe04e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7a09a4c9-691b-4960-b60b-6f8f06a5f31c" name="Observe Account Information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="737760d2-8727-4b1a-9fbe-00a2bc13308c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="91d3e9fa-4e60-4d87-8b00-5510338bb999" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="646792f7-6ba6-40f7-9bbd-2b14f8b704bd" name="Man-in-the-Middle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="81dc3718-5a19-4b27-bfd2-6b5be5bb8698" />
+        <targetEnds>
+          <association Id="f2ce8575-6ddb-4fe7-82ba-15ec8469614f" isDerived="false" sourceEndRoleName="Skimmer" targetEndRoleName="Modify Data in Transit (External)" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0a5c6a3c-075b-4c17-8b4d-a79358d29457" LastKnownName="Observe/Modify Data in Transit (External)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="85ffbe41-bccf-4e29-80bb-404c883f37ff" name="Skimmer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a19aa39b-e692-43ad-92f7-13eefa665c4c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="861b47be-bd2d-41b2-bffc-163a67a9041b" name="Modify Data in Transit (External)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="070139fb-d223-4d1c-9e21-3740813d32b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85289936-d6cf-4e33-93d2-870bf1df95ca" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9f83c9c5-2f47-4c6a-a68e-a8abea064fcd" name="Observe Account Information" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="21993cd7-b147-49c8-aa2d-7432da990b0e" />
+        <suppliersInternal>
+          <dependency Id="842daac4-76d1-4247-aa46-17bd670b48b2" name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="efc5effc-cb75-4414-8912-c123e14a8ebc" LastKnownName="View Account Statement" />
+            <elementDefinition Id="57e7f763-6990-44d3-9e52-668e9a67bc14" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0a5c6a3c-075b-4c17-8b4d-a79358d29457" name="Observe/Modify Data in Transit (External)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e240b4d4-b035-40c6-9adf-ad795187afbc" />
+        <suppliersInternal>
+          <dependency Id="25af4eff-aeba-4771-aff8-b03a3305be1b" name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="7c351aee-cc15-4dfc-990b-a15d66eb9fee" LastKnownName="Transfer Funds" />
+            <elementDefinition Id="231fb648-a8be-4d10-b511-434656b776ac" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b988e05f-c8df-4c54-bacf-28a9e2e4ad80" name="Inside Man" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25440b2e-a7ae-409e-944f-ee7abcc81580" />
+        <targetEnds>
+          <association Id="9bca03d4-facc-4624-80bc-6a4d6ac038e1" isDerived="false" sourceEndRoleName="Inside Man" targetEndRoleName="Modify Data  (Internal)" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1daecdca-725a-412c-bef0-f61dfb50c815" LastKnownName="Modify Data  (Internal)" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aaeb8d54-2af2-4961-9f19-28295ac01580" name="Inside Man" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2d7bb5f6-bbbc-4527-bc99-7f2821e89c52" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb1f153e-9de2-4bc2-ad2c-2e24f8fd1d22" name="Modify Data  (Internal)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2d53bad7-a935-4f01-bf70-a6becdb4b2c3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="165a53c7-7086-4804-ba98-5d988d18e6ce" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1daecdca-725a-412c-bef0-f61dfb50c815" name="Modify Data  (Internal)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b18980a3-65d7-45da-a3c3-82c0eb84f186" />
+        <suppliersInternal>
+          <dependency Id="42376920-cc59-4b7a-9f35-a4109fb6f3f1" name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="7c351aee-cc15-4dfc-990b-a15d66eb9fee" LastKnownName="Transfer Funds" />
+            <elementDefinition Id="09086bc8-db5a-4014-9299-aa71dc4f94c8" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="759ffce7-9f9d-4348-98cf-f11f6b040e0f" name="Illegally logging into the bank's application using SQL Injection" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41c4434d-213b-4b3e-b03c-77d7b4862e9b" />
+        <suppliersInternal>
+          <dependency Id="930a1ea7-2912-4dad-b0d5-7890cfc62858" name="&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="577033ab-766c-40dc-86f4-695f31971e17" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="cad4adf2-cf49-47e2-80a5-dfbc0e43ec75" name="Hacker" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3e3f8822-8e09-4279-9cad-b22c70e03fa7" />
+        <targetEnds>
+          <association Id="765e19c5-99b4-4180-9c34-a2fbcab06602" isDerived="false" sourceEndRoleName="Hacker" targetEndRoleName="Illegally logging into the bank's application using SQL Injection" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="759ffce7-9f9d-4348-98cf-f11f6b040e0f" LastKnownName="Illegally logging into the bank's application using SQL Injection" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f2d53bf7-822e-4f06-af99-2f49ec34d3b2" name="Hacker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="18986a1d-bed0-495b-9af2-21752416e192" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0efe987c-3873-454e-bc49-013cce845677" name="Illegally logging into the bank's application using SQL Injection" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="191df0d5-7e81-424d-950e-c1b26c195c5e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="574e48a6-dfa8-4210-aedf-bd0dd028baad" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="83d02c0e-840f-4ef1-a059-ad73949a74a2" name="Evil Authorized User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="018c92c2-b809-42cc-9a8e-54a173705fc8" />
+        <targetEnds>
+          <association Id="ccccdf13-928a-4c1e-8b84-dd727faf9199" isDerived="false" sourceEndRoleName="Evil Authorized User" targetEndRoleName="Infecting the Bank's Online Server Cross Site Scripting" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6389553b-3fb6-4c6d-a84f-ac07971d15dc" LastKnownName="Infecting the Bank's Online Server Cross Site Scripting" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab5df80e-6be9-4476-9e20-3c91bcf23e68" name="Evil Authorized User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f10b4dd5-dd88-4178-882e-3e6c66e994cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="083bc8f2-489c-467c-abc7-ee10600b0e4c" name="Infecting the Bank's Online Server Cross Site Scripting" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6cddc3cb-2ed0-433f-9bd2-5c1c9f225791" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e6e31749-b76f-4827-8986-1225933b9263" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6389553b-3fb6-4c6d-a84f-ac07971d15dc" name="Infecting the Bank's Online Server Cross Site Scripting" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d49104bf-85f1-410a-839e-ee96899260a8" />
+        <suppliersInternal>
+          <dependency Id="aeae909e-8c51-4fca-9378-71d80762f6e1" name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="0f9d5128-6944-428d-a89c-9b2cfa0e3644" LastKnownName="Validate ID / Password" />
+            <elementDefinition Id="c1b690d1-64a7-4a38-9280-deaace41fabd" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6d1ebd3e-5415-4a41-94cf-497ed93dae2a" name="Stealing bank customer's credentials using Phishing attack" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c9ef1767-7caf-4ea3-87c8-448ac70f8c8a" />
+        <suppliersInternal>
+          <dependency Id="fb5e5966-065c-443b-84ff-139ef34227d5" name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="efc5effc-cb75-4414-8912-c123e14a8ebc" LastKnownName="View Account Statement" />
+            <elementDefinition Id="df4b384c-d634-4928-a559-d301b85b56fe" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="73c58004-e89f-4b10-9a45-299db5edbbbc" name="Crook" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41ad3384-d973-4954-b2cb-ebe1bf4df18b" />
+        <targetEnds>
+          <association Id="b7ceef68-271f-468e-8628-49229541a7d3" isDerived="false" sourceEndRoleName="Crook" targetEndRoleName="Stealing bank customer's credentials using Phishing attack" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6d1ebd3e-5415-4a41-94cf-497ed93dae2a" LastKnownName="Stealing bank customer's credentials using Phishing attack" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48161107-03a1-4aa1-88a3-698cd1f2f6ee" name="Crook" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="63b6bab4-eb22-448a-b86b-634e743e52db" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e4c9694a-e37c-4e15-8470-fa7553cf01c9" name="Stealing bank customer's credentials using Phishing attack" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e858d780-d3dc-466e-b471-b713fbb03945" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9c769929-2671-4802-b0ec-19a04271c72b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2164b94e-21ab-48aa-8337-de43a4255daf" name="Protect Data in Transit" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f138353-c540-432b-a7ff-89b97108dba4" />
+        <suppliersInternal>
+          <dependency Id="861d6c94-25f2-462e-944c-6aea4ad53ee7" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="0a5c6a3c-075b-4c17-8b4d-a79358d29457" LastKnownName="Observe/Modify Data in Transit (External)" />
+            <elementDefinition Id="05706e47-5447-4203-a3b9-40489483d968" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fbda18ef-560c-4474-8cca-222847bf3094" name="Protect Data at Rest" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="764f0280-60c1-4d6c-9fc4-2973dcfb36c8" />
+        <suppliersInternal>
+          <dependency Id="820c69e5-95e4-432b-9dba-fe1a204f5b53" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="1daecdca-725a-412c-bef0-f61dfb50c815" LastKnownName="Modify Data  (Internal)" />
+            <elementDefinition Id="09093849-a8f2-4510-856f-9a266bbcd253" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6a41b372-24b1-4e61-acef-7aff1f5af56d" name="Validate User Input" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="519b4725-62c0-44f6-a3dc-566a47595d47" />
+        <suppliersInternal>
+          <dependency Id="d59b322d-bbd3-4036-aa06-8dfe7ae3324e" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="759ffce7-9f9d-4348-98cf-f11f6b040e0f" LastKnownName="Illegally logging into the bank's application using SQL Injection" />
+            <elementDefinition Id="6f2a6c3c-6bc1-44e7-b88a-810b63b73c5f" />
+          </dependency>
+          <dependency Id="abc827cd-2c3d-42a0-b185-49ad950bdd55" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="6389553b-3fb6-4c6d-a84f-ac07971d15dc" LastKnownName="Infecting the Bank's Online Server Cross Site Scripting" />
+            <elementDefinition Id="844f2273-7b36-453e-a245-d003f9ba134b" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="86674aea-7e45-4368-9441-4700c49e8489" name="Anti-Phishing verification" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fffe1fed-4d33-44fd-a530-1a459a2791bf" />
+        <suppliersInternal>
+          <dependency Id="ee16e0e6-d64f-419d-b9bc-c8f936fe2c33" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="6d1ebd3e-5415-4a41-94cf-497ed93dae2a" LastKnownName="Stealing bank customer's credentials using Phishing attack" />
+            <elementDefinition Id="b61243a8-4141-4771-b43f-c9a09fd16b03" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="28f7c553-5633-41ea-bdcc-0a58858ea4f1" name="Prevent Caching in Browser" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="750337ab-4ba2-4ded-8990-36c5175c583c" />
+        <suppliersInternal>
+          <dependency Id="0bfa6e1a-826a-4932-a8fd-09aba85355d2" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="9f83c9c5-2f47-4c6a-a68e-a8abea064fcd" LastKnownName="Observe Account Information" />
+            <elementDefinition Id="a5f19649-9859-4ca0-b0ca-a2ebd6557d22" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="5dc79bc9-91c6-4b99-9a81-953b17a54123" name="Con Artist" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8a6674f6-6f83-4ec6-af9d-40caa2607ab4" />
+        <targetEnds>
+          <association Id="c4628d50-7f3f-48cd-9cef-494ecd81fc74" isDerived="false" sourceEndRoleName="Con Artist" targetEndRoleName="Con Artist Posing as User to Get PIN" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f96d0dd1-f4f8-4de0-a948-6fdef69dc8de" LastKnownName="Social Engineering to Obtain PIN" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bdc2683e-f69d-460a-97c9-f9dd445b0175" name="Con Artist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="65647430-d88f-44e2-9c52-218e9524e095" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="533ed1c4-9af3-44c3-9ebd-69210a2f3f8e" name="Con Artist Posing as User to Get PIN" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a0bfc985-5264-4ca6-973e-0ebfd580f5c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cd629bf7-9d50-4b48-aabb-7cf81cb6cf9d" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f96d0dd1-f4f8-4de0-a948-6fdef69dc8de" name="Social Engineering to Obtain PIN" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9329a835-1d4e-4bb5-a00e-c42e07700d2c" />
+        <suppliersInternal>
+          <dependency Id="88ccf347-7cae-4837-ab3c-62f8e14eb655" name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker Id="f9976387-ce0c-41a7-8436-abf11b79ba45" LastKnownName="Unlock Customer ID" />
+            <elementDefinition Id="330a3107-3b80-4384-b66b-f68eabd632ba" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="da9c73ce-e143-4ef2-be0d-5072a55ba0c0" name="Protect from Social Engineering" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4b91a967-2bf0-4585-b376-31d22e716cb1" />
+        <suppliersInternal>
+          <dependency Id="2f094b55-5fb4-4194-a601-4d537883fa9c" name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker Id="f96d0dd1-f4f8-4de0-a948-6fdef69dc8de" LastKnownName="Social Engineering to Obtain PIN" />
+            <elementDefinition Id="2db5fd36-087a-4e1b-b4e1-b552ba8cef18" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="9471201d-7a5b-4e68-a386-a997af0f03be" name="Online Banking">
+    <elementDefinition Id="72cc03c6-75a6-4127-b295-61b553309726" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3b9872e8-0d46-4e0c-ba92-79f9c608e42a">
+        <profileInstance Id="c539242d-bda4-4805-bb26-bcd883e6aa16" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="2f34ddb5-14a9-43d8-b986-981532e2f7cf">
+        <profileInstance Id="3b5043d6-7db5-457b-a4d1-1f5a791f4886" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

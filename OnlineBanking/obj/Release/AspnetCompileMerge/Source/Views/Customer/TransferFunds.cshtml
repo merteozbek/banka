@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Transfer Funds</h2>
+
+<h2>@ViewBag.theMessage2</h2>
+
+<form method="post">
+
+
+    <br />
+
+    <table style="width:100%;padding-top: 0px;margin-top: 0px;">
+        <col width="20%">
+        <col width="80%">
+
+        <tr><td> Enter From Account Number</td><td><input type="text" name="fromAccount" id="fromAccountNumber" /></td></tr>
+        <tr><td>Enter To Account Number</td><td><input type="text" name="toAccount" id="toAccountNumber" /></td></tr>
+        <tr><td>Ammount</td><td><input type="text" name="ammount" id="ammount" /></td></tr>
+
+    </table>
+
+    <br />
+
+
+
+   
+    <br/>
+    <input type="submit" value="Transfer Funds !" />
+</form>
+
+<h2>@ViewBag.transferFundSuccess</h2>

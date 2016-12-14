@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    <link href="@Url.Content("~/Content/Style.css")" rel="stylesheet" type="text/css" />
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript">
+         $(function () {
+             // create the image rotator
+             setInterval("rotateImages()", 3000);
+         });
+
+         function rotateImages() {
+             var oCurPhoto = $('#hero div.current');
+             var oNxtPhoto = oCurPhoto.next();
+             if (oNxtPhoto.length == 0)
+                 oNxtPhoto = $('#hero div:first');
+
+             oCurPhoto.removeClass('current').addClass('previous');
+             oNxtPhoto.css({ opacity: 0.0 }).addClass('current')
+                    .animate({ opacity: 1.0 }, 1000,
+                                function () {
+                                    oCurPhoto.removeClass('previous');
+                                });
+         }
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div style="width:960px;" class="header">
+            <img style=";padding-left:0px;margin-left:0px;"  width="930px" src="../../img/header.png">
+            
+            <div style="height:25px;padding-top: 0px;margin-top: 0px;padding-bottom: 7px">
+                <table style="width:100%;padding-top: 0px;margin-top: 0px;vertical-align:text-top">
+                    <col width="70%">
+                    <col width="30%">
+                    <tr style="padding-top: 0px;margin-top: 0px;">
+                        <td style="padding-top: 0px;margin-top: 0px;"></td>
+                        <td style="float:right;padding-top: 0px;margin-top: 0px;padding-right:26px;">
+                            @Html.Partial("_LoginPartial")
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <br/><br /><br />
+            <div id="hero">
+                <div class="current"><img height="300px;" width="930px" src="img/bank4.jpg"></div>
+                <div><img height="300px;" width="930px" src="../../img/bank2.jpg"></div>
+                <div><img height="300px;" width="930px" src="../../img/bank1.jpg"></div>
+                <div><img height="300px;" width="930px" src="../../img/bank3_people.jpg"></div>
+            </div>
+        </div>
+
+        <nav class="main-navigation" role="navigation">
+            <div style="padding-left:120px;">
+                <ul id="menu-main-menu" class="nav-menu">
+                  
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                  
+                    <li>@Html.ActionLink("View Check Image", "CheckImageRequest", "Customer")</li>
+                    <li>@Html.ActionLink("Check Account", "CheckAccountInput", "Customer")</li>
+                    <li>@Html.ActionLink("Set-up Alert", "SetUpAlert", "Customer")</li>
+                    
+                    <li>@Html.ActionLink("Update Profile", "CustomerProfileInput", "Customer")</li>
+                    <li>@Html.ActionLink("Transfer Funds", "TransferFunds", "Customer")</li>
+                    <li>@Html.ActionLink("Account Statement", "AccountStatement", "Customer")</li>
+                   
+
+                    
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+       
+        <div>
+            @RenderBody()
+        </div>
+           
+                <div style="display:block;" class="footer">
+                    &copy;2015 The KSJ Bank<br><br>
+                    The KSJ Bank is a fictitious brand created by us solely for the purpose of training. All products and people associated with KSJ Bank are also fictitious.
+                    Any resemblance to real brands, products, or people is purely coincidental.
+                    Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
+                </div>
+           
+        
+
+        </div>
+
+        
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>

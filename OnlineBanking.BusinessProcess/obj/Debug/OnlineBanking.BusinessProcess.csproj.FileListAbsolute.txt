@@ -1,0 +1,26 @@
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.BusinessProcess.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.BusinessProcess.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DAL.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DAL.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DataModel.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.xml
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\obj\Debug\OnlineBanking.BusinessProcess.csprojResolveAssemblyReference.cache
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\obj\Debug\OnlineBanking.BusinessProcess.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\obj\Debug\OnlineBanking.BusinessProcess.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.BusinessProcess.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.BusinessProcess.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DAL.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DataModel.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DAL.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.DataModel.pdb
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.xml
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\obj\Debug\OnlineBanking.BusinessProcess.csprojResolveAssemblyReference.cache
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\obj\Debug\OnlineBanking.BusinessProcess.dll
+C:\Users\Mert\Desktop\Secure-Online-Banking-Application-in-ASP.NET-MVC-Architecture-using-Entity-Framework-master\OnlineBanking.BusinessProcess\obj\Debug\OnlineBanking.BusinessProcess.pdb

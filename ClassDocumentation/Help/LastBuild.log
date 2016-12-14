@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="2014.2.15.0 Beta" projectFile="C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\ClassDocumentation.shfbproj" started="5/4/2015 4:56:13 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components...
+Using presentation style &#39;VS2010&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\OnlineBanking.BusinessProcess.csproj
+    Found project &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\OnlineBanking.BusinessProcess.csproj&#39;
+Source: C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\OnlineBanking.DAL.csproj
+    Found project &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\OnlineBanking.DAL.csproj&#39;
+Source: C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\OnlineBanking.DataModel.csproj
+    Found project &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\OnlineBanking.DataModel.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.BusinessProcess\bin\Debug\OnlineBanking.BusinessProcess.dll&#39;
+    Found assembly &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Debug\OnlineBanking.DAL.dll&#39;
+    Found assembly &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DataModel\bin\Debug\OnlineBanking.DataModel.dll&#39;
+
+References to include (excluding framework assemblies):
+    EntityFramework
+    EntityFramework.SqlServer
+SHFB: Warning BE0062: No XML comments files found.  The help file will not contain any member comments.
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0180
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/4/2015 4:56:14 PM.
+Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loaded 3 assemblies for reflection and 3 dependency assemblies.
+  Wrote information on 3 namespaces, 28 types, and 127 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.55
+    Last step completed in 00:00:00.6401
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/4/2015 4:56:15 PM.
+Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40
+    Last step completed in 00:00:00.4810
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.1000
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Content\Welcome.aml&#39;
+    C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Content\Welcome.aml -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\ddueXml\a8035b7b-3275-4e01-8354-3c2ad61a8969.xml
+    Parsing topic file &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\ddueXml\b0157014-9751-43f3-88c8-a0b663d22e16.xml
+    Parsing topic file &#39;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\ddueXml\e96532b5-d2e9-484e-b34c-00fccf8fe781.xml
+    Last step completed in 00:00:00.0610
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\icons\Help.png -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00.0110
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/4/2015 4:56:15 PM.
+Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.1500
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00.2130
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\sandcastle.config
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\conceptual.config
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0980
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/4/2015 4:56:16 PM.
+Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
+BuildConceptualTopics:
+  BuildAssembler (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 3 topic(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+Done Building Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildConceptualTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.35
+    Last step completed in 00:00:03.5174
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Build started 5/4/2015 4:56:19 PM.
+Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2014.1.26.0)
+  Copyright c 2006-2014, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2014, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:OnlineBanking.BusinessProcess] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.AlertManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.GetAccountAlerts(System.String,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.GetAccountAlerts(System.String,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.GetAccountAlerts(System.String,System.Int32)] Missing &lt;param name=&quot;accountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.GetAccountAlerts(System.String,System.Int32)] Missing &lt;param name=&quot;customerID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.SetUpAccountAlerts(OnlineBanking.DataModel.Alert,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.SetUpAccountAlerts(OnlineBanking.DataModel.Alert,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.SetUpAccountAlerts(OnlineBanking.DataModel.Alert,System.Int32)] Missing &lt;param name=&quot;alert&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.AlertManager.SetUpAccountAlerts(OnlineBanking.DataModel.Alert,System.Int32)] Missing &lt;param name=&quot;customerID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.DatabaseInitializer] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.DatabaseInitializer.InitializeDatabase(OnlineBanking.DAL.BankContext)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.DatabaseInitializer.InitializeDatabase(OnlineBanking.DAL.BankContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:OnlineBanking.BusinessProcess.DatabaseInitializer.InitializeDatabase(OnlineBanking.DAL.BankContext)] Unknown reference link target &#39;M:System.Data.Entity.IDatabaseInitializer`1.InitializeDatabase(`0)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.IDValidationManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.LogTransaction(System.Int32,System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.LogTransaction(System.Int32,System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.LogTransaction(System.Int32,System.String)] Missing &lt;param name=&quot;customerID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.LogTransaction(System.Int32,System.String)] Missing &lt;param name=&quot;status&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.Validate(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.Validate(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.Validate(System.String,System.String)] Missing &lt;param name=&quot;Id&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.IDValidationManager.Validate(System.String,System.String)] Missing &lt;param name=&quot;PWD&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.ProfileManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.ProfileManager.RequestCustomerProfile(System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.ProfileManager.RequestCustomerProfile(System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.ProfileManager.RequestCustomerProfile(System.String)] Missing &lt;param name=&quot;customerEmail&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.ProfileManager.UpdateCustomerProfile(OnlineBanking.DataModel.Customer)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.ProfileManager.UpdateCustomerProfile(OnlineBanking.DataModel.Customer)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.ProfileManager.UpdateCustomerProfile(OnlineBanking.DataModel.Customer)] Missing &lt;param name=&quot;customer&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.QueryManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.CheckAccount(System.String,System.DateTime,System.DateTime,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.CheckAccount(System.String,System.DateTime,System.DateTime,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.CheckAccount(System.String,System.DateTime,System.DateTime,System.Int32)] Missing &lt;param name=&quot;accountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.CheckAccount(System.String,System.DateTime,System.DateTime,System.Int32)] Missing &lt;param name=&quot;fromTime&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.CheckAccount(System.String,System.DateTime,System.DateTime,System.Int32)] Missing &lt;param name=&quot;toTime&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.CheckAccount(System.String,System.DateTime,System.DateTime,System.Int32)] Missing &lt;param name=&quot;customerID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.RequestCheckImage(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.RequestCheckImage(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.RequestCheckImage(System.String,System.String)] Missing &lt;param name=&quot;accountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.QueryManager.RequestCheckImage(System.String,System.String)] Missing &lt;param name=&quot;checkNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.StatementManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.StatementManager.RequestAccountStatement(System.String,System.Double,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.StatementManager.RequestAccountStatement(System.String,System.Double,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.StatementManager.RequestAccountStatement(System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;accountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.StatementManager.RequestAccountStatement(System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;month&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.StatementManager.RequestAccountStatement(System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;customerID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.TransferManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.TransferManager.Transfer(System.String,System.String,System.Double,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.TransferManager.Transfer(System.String,System.String,System.Double,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.TransferManager.Transfer(System.String,System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;fromAccountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.TransferManager.Transfer(System.String,System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;toAccountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.TransferManager.Transfer(System.String,System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.TransferManager.Transfer(System.String,System.String,System.Double,System.Int32)] Missing &lt;param name=&quot;customerID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.BusinessProcess.UnlockIDManager] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.UnlockIDManager.UnlockCustomerID(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.UnlockIDManager.UnlockCustomerID(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.UnlockIDManager.UnlockCustomerID(System.String,System.String)] Missing &lt;param name=&quot;customerEmail&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.BusinessProcess.UnlockIDManager.UnlockCustomerID(System.String,System.String)] Missing &lt;param name=&quot;success&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:OnlineBanking.DAL] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DAL.BankContext] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Dispose&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Dispose(System.Boolean)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Entry(System.Object)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Entry``1(``0)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Equals(System.Object)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.GetHashCode&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.GetType&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.GetValidationErrors&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.SaveChanges&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.SaveChangesAsync&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Set(System.Type)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Set``1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.ToString&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;P:System.Data.Entity.DbContext.ChangeTracker&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;P:System.Data.Entity.DbContext.Configuration&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;P:System.Data.Entity.DbContext.Database&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Dispose&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Dispose(System.Boolean)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Entry(System.Object)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Entry``1(``0)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Equals(System.Object)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.GetHashCode&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.GetType&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.GetValidationErrors&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.SaveChanges&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.SaveChangesAsync&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Set(System.Type)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.Set``1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.ToString&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;M:System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;P:System.Data.Entity.DbContext.ChangeTracker&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;P:System.Data.Entity.DbContext.Configuration&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;P:System.Data.Entity.DbContext.Database&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:OnlineBanking.DAL.BankContext] Unknown reference link target &#39;T:System.Data.Entity.DbContext&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.Alerts] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.Alerts] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.AlertTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.AlertTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.Banks] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.Banks] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.CheckImages] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.CheckImages] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.CheckingAccounts] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.CheckingAccounts] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.Customers] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.Customers] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.IDValidationTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.IDValidationTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.BankContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.BankContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:OnlineBanking.DAL.BankContext.OnModelCreating(System.Data.Entity.DbModelBuilder)] Unknown reference link target &#39;T:System.Data.Entity.DbModelBuilder&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.ProfileTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.ProfileTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.QueryTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.QueryTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.SavingsAccounts] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.SavingsAccounts] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.StatementTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.StatementTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.TransferTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.TransferTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.BankContext.UnlockIDTransactions] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:OnlineBanking.DAL.BankContext.UnlockIDTransactions] Unknown reference link target &#39;T:System.Data.Entity.DbSet`1&#39;. [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DAL.Crypto] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.#ctor(OnlineBanking.DAL.Crypto.Providers)] Missing &lt;param name=&quot;NetSelected&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.Crypto.BlockSize] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.Decrypt(System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.Decrypt(System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.Decrypt(System.String)] Missing &lt;param name=&quot;vstrSource&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.Encrypt(System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.Encrypt(System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DAL.Crypto.Encrypt(System.String)] Missing &lt;param name=&quot;vstrSource&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DAL.Crypto.KeySize] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DAL.Crypto.Providers] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:OnlineBanking.DataModel] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Account] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Account.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Account.Alert] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Account.balance] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Account.Credit(System.Double)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Account.Credit(System.Double)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Account.Credit(System.Double)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Account.customerID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Account.Debit(System.Double)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Account.Debit(System.Double)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Account.Debit(System.Double)] Missing &lt;param name=&quot;amount&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Account.isChecking] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Account.Statement] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Alert] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Alert.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Alert.alertData] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Alert.AlertID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Alert.SetUpAlerts(System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Alert.SetUpAlerts(System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Alert.SetUpAlerts(System.String)] Missing &lt;param name=&quot;alertData&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.AlertTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.AlertTransaction.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.AlertTransaction.alertData] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Bank] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Bank.bankAddress] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Bank.bankName] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Bank.Customer] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Bank.Transaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.CheckImage] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckImage.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckImage.checkImage] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckImage.checkImageID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckImage.checkNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckImage.transactionID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.CheckingAccount] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckingAccount.CheckImage] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.CheckingAccount.lastDepositAmount] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Customer] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.Accounts] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.address] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.customerID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.customerIdStatus] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.customerName] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.email] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.password] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Customer.phone] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.ReadCustomerProfile] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.ReadCustomerProfile] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.UnlockCustomerID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.UnlockCustomerID] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.UpdateCustomerProfile(System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.UpdateCustomerProfile(System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.UpdateCustomerProfile(System.String)] Missing &lt;param name=&quot;profileData&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.Validate(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.Validate(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.Validate(System.String,System.String)] Missing &lt;param name=&quot;ID&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Customer.Validate(System.String,System.String)] Missing &lt;param name=&quot;PIN&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.IDValidationTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.ProfileTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.QueryTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.QueryTransaction.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.SavingsAccount] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.SavingsAccount.Interest] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Statement] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Statement.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Statement.month] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Statement.ReadBalance(System.String,System.Double)] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Statement.ReadBalance(System.String,System.Double)] Missing &lt;returns&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Statement.ReadBalance(System.String,System.Double)] Missing &lt;param name=&quot;accountNumber&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:OnlineBanking.DataModel.Statement.ReadBalance(System.String,System.Double)] Missing &lt;param name=&quot;month&quot;/&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Statement.statementData] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Statement.statementId] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.StatementTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.StatementTransaction.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.StatementTransaction.month] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Transaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Transaction.Account] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Transaction.CustomerID] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Transaction.dateTime] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Transaction.status] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Transaction.transactionId] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.Transaction.transactionType] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.Transaction.TransactionType] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.TransferTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.TransferTransaction.amount] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.TransferTransaction.fromAccountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.TransferTransaction.toAccountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:OnlineBanking.DataModel.UnlockIDTransaction] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.UnlockIDTransaction.accountNumber] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:OnlineBanking.DataModel.UnlockIDTransaction.operatorId] Missing &lt;summary&gt; documentation [C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj]
+  Processed 191 topic(s)
+  271 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Done Building Project &quot;C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.94
+    Last step completed in 00:00:09.0369
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+Sandcastle Help File Builder, version 2014.2.15.0 Beta
+Copyright c 2006-2014, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1
+Processed 194 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\ClassDocumentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\ClassDocumentation.hhc
+    Last step completed in 00:00:00.6201
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\1_404_bullet.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\1_404_bullet.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\2_404_bullet.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\2_404_bullet.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\alert_caution.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\alert_note.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\alert_security.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\CFW.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\close.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\close.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\favicon.ico -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\footer_slice.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\footer_slice.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\info_icon.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\info_icon.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\note.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\online_icon.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\online_icon.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\open.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\open.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pencil.GIF -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privclass.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privdelegate.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privenumeration.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privevent.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privextension.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privfield.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privinterface.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privmethod.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privproperty.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\privstructure.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protclass.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protdelegate.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protenumeration.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protevent.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protextension.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protfield.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protinterface.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protmethod.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protoperator.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protproperty.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\protstructure.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubclass.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubdelegate.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubenumeration.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubevent.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubextension.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubfield.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubinterface.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubmethod.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\puboperator.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubproperty.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\pubstructure.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\search.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\search.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\search_bk.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\search_bk.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\security.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\slMobile.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\static.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\tabLeftBG.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\tabLeftBG.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\tabRightBG.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\tabRightBG.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\ui_om_collapse.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\ui_om_collapse.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\ui_om_expand.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\ui_om_expand.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\icons\xna.gif -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\scripts\branding.js -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-cs-CZ.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-de-DE.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-en-US.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-es-ES.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-fr-FR.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-it-IT.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-ja-JP.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-ko-KR.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-pl-PL.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-pt-BR.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-ru-RU.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-tr-TR.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-zh-CN.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding-zh-TW.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2010\styles\branding.css -&gt; C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00.5111
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\ClassDocumentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 1 second
+  
+  196	Topics
+  
+  2,219	Local links
+  
+  931	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\ClassDocumentation\Help\Working\Output\HtmlHelp1\ClassDocumentation.chm, 310,106 bytes
+  
+  Compression decreased file by 1,827,699 bytes.
+  
+    Last step completed in 00:00:01.5722
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0540
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 05/04/2015 04:56 PM.  Total time: 00:00:18.3958
+
+</buildStep>
+</shfbBuild>

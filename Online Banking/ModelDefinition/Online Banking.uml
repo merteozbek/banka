@@ -1,0 +1,1542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="72cc03c6-75a6-4127-b295-61b553309726"
+  name="Online Banking" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="0fa071ad-4907-4c64-a453-d4b8eecabe07">
+      <body>External Communication required to initiate Unlock Customer ID Use Case. Requires authentication.</body>
+      <annotatedElements>
+        <actorMoniker
+          Id="6261c427-660e-4c47-905b-ae068526eafb"
+          LastKnownName="Customer"
+          LastKnownLocation="Online Banking.uml" />
+        <actorMoniker
+          Id="3dbdde32-f3c9-4d2b-a942-6351b7961b21"
+          LastKnownName="Operator"
+          LastKnownLocation="Online Banking.uml" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="88041593-a995-4b1b-8860-034d7a9e1ec4"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="e73d9590-3ac0-4d54-9445-538ebea866e7">
+          <propertyInstance
+            Id="012f0571-089d-4b44-8e80-8c8d334a050e"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="b909aa8d-241e-470a-8937-348a1ff16413">
+          <propertyInstance
+            Id="f669773d-f4c5-4b9d-b8fd-8892219fc2bb"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="afe9e3a1-f5bc-48af-ac26-0f88eea4cb07">
+          <propertyInstance
+            Id="ac01ea2e-79cb-4283-bb82-6a3d0142392a"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="d37383c6-74c1-4749-b769-40d82b55cd70"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="87ccae82-f924-4b4f-89d1-6379e4133287">
+          <propertyInstance
+            Id="b4002f70-a056-4856-94e3-24165cb0f86a"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="a21ee638-d38f-4dd2-b213-47dca4c89edc">
+          <propertyInstance
+            Id="be89d1ac-133b-41d4-887d-f3b6d02158ed"
+            name="TemplateFilePath"
+            value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="cb97ff9d-737b-482c-89a5-669c01ad33a2">
+          <propertyInstance
+            Id="1912e624-1809-4e12-92b2-56644f10bc9d"
+            name="ProjectPath"
+            value="ClassTemplate=..\Online BankingLib\Online BankingLib.csproj|EnumTemplate=..\Online BankingLib\Online BankingLib.csproj|InterfaceTemplate=..\Online BankingLib\Online BankingLib.csproj|StructTemplate=..\Online BankingLib\Online BankingLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="50f7a502-41a3-42dc-977e-24c7e07d4caa">
+          <propertyInstance
+            Id="062b81c0-4aa9-482e-8912-61dfc75c1994"
+            name="TargetDirectory"
+            value="ClassTemplate={PackageStructure}|EnumTemplate={PackageStructure}|InterfaceTemplate={PackageStructure}|StructTemplate={PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="0b0fc449-5810-4b63-8618-fc535fe9b3b0">
+          <propertyInstance
+            Id="0e85ae34-e5ce-4573-ba6b-b673b49f1b66"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="d1e07c39-0b59-4ba9-bc23-81216547433b">
+          <propertyInstance
+            Id="aa49ec34-87b8-4f5e-94da-871a630c701b"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="a6392827-e8b8-472e-9c86-f93cda45e50b">
+          <propertyInstance
+            Id="40b40b31-2cf5-42a6-995f-acdecb601eb9"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="96efc24f-bc0c-4506-aa40-81c78dde74d5">
+      <profileInstance
+        Id="090f4a88-ff9c-4836-933a-d727c6a03d75"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="c4889e1b-01d7-48bb-a53b-2e3f9d547acb">
+      <profileInstance
+        Id="3a127b9e-f2f5-448c-a49d-56ee2bb1d511"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="6261c427-660e-4c47-905b-ae068526eafb"
+        name="Customer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="017370f5-ffb7-4322-8b6f-d748cfd60fb6"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Check Account"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="43dbb1af-0597-4257-9232-399e559b18a9"
+              LastKnownName="Check Account"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f7bbd45e-29e9-4158-80fb-dff904d34c6f"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="24884c02-a0d9-4069-b748-c872bbfaa8a0"
+                  name="Check Account"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1124a45f-a07d-414d-bea8-8405f9995e6a"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Transfer Funds"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6d4a7e49-a1cf-4090-8db4-31bbe6851df1"
+              LastKnownName="Transfer Funds"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9e9db4c1-835b-4802-ace2-eec7533f7407"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d2ab60a7-8852-456c-88e4-68a859ca0ed3"
+                  name="Transfer Funds"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="743844c1-67d2-41ac-aff8-d08a5875d124"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="View Account Statement"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a"
+              LastKnownName="View Account Statement"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d2699df9-8876-438a-a3c5-41f3b7ce23b6"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="57b2c146-460f-4d44-8388-9c7c0b5f8a7f"
+                  name="View Account Statement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="df0213a6-84a4-47a4-ad89-77e41f481569"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Set Up Account Alerts"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f8d79f53-e26a-4ee0-95cc-2b17ff1f81f2"
+              LastKnownName="Set Up Account Alerts"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9dac0d99-1102-4ebb-89f9-52e64c1da719"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="62c5260a-ccfa-4649-b5ad-d54e7f3d7af6"
+                  name="Set Up Account Alerts"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b214c136-5681-4366-8e92-bac40b6de0b2"
+            isDerived="false"
+            sourceEndRoleName="Customer"
+            targetEndRoleName="Update Customer Profile"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7e85156b-e0f0-49c9-813e-810b6ff7b39b"
+              LastKnownName="Update Customer Profile"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cef9b1b2-a566-449c-bb29-5cdc021fb27f"
+                  name="Customer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0652d8cc-a74e-4466-9b6e-39c96ab42224"
+                  name="Update Customer Profile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="3dbdde32-f3c9-4d2b-a942-6351b7961b21"
+        name="Operator"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e3f44a7e-a0d4-4972-956f-6dbdc09c908c"
+            isDerived="false"
+            sourceEndRoleName="Operator"
+            targetEndRoleName="Unlock Customer ID"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d5b2b583-d995-4baf-ab2c-68ae8a442a97"
+              LastKnownName="Unlock Customer ID"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f00a6dc-339b-4d05-878b-8ce8bd0c1fd9"
+                  name="Operator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="accd4ac0-e769-4625-a365-8c140545b1e7"
+                  name="Unlock Customer ID"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="af634af6-9e10-41da-b019-22a8298670d6"
+            isDerived="false"
+            sourceEndRoleName="Operator"
+            targetEndRoleName="Protect from Social Engineering"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4b91a967-2bf0-4585-b376-31d22e716cb1"
+              LastKnownName="Protect from Social Engineering"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09d55949-ea16-49a3-bdc2-4ef61fd6e6e4"
+                  name="Operator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="95fff702-39b9-414f-8873-5d402559f32a"
+                  name="Protect from Social Engineering"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="43dbb1af-0597-4257-9232-399e559b18a9"
+        name="Check Account"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="b767d8f4-4e8b-4117-8835-a4c84c3573fb">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6d4a7e49-a1cf-4090-8db4-31bbe6851df1"
+        name="Transfer Funds"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="4056399f-33a6-4d2f-8336-d1f0211fa38f">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a"
+        name="View Account Statement"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="e766f475-3918-4f4e-b7d5-bb70362d7df6">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f8d79f53-e26a-4ee0-95cc-2b17ff1f81f2"
+        name="Set Up Account Alerts"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="15c61f58-74fe-4378-98a6-57dc7fbaab8f">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7e85156b-e0f0-49c9-813e-810b6ff7b39b"
+        name="Update Customer Profile"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="bf933dfe-377b-49ee-a8c7-3f356d9a2a7f">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7729263f-beb6-46d9-b0bd-a095ce6c07c6"
+        name="See Check Image"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="aedd8771-3f06-4ce1-9e69-01bad402b0b3">
+            <useCaseMoniker
+              Id="43dbb1af-0597-4257-9232-399e559b18a9"
+              LastKnownName="Check Account"
+              LastKnownLocation="Online Banking.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+        name="Validate ID / Password"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="369502fe-581a-44e6-820c-d6c6924f0bc2">
+            <useCaseMoniker
+              Id="3f138353-c540-432b-a7ff-89b97108dba4"
+              LastKnownName="Protect Data in Transit"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+          <include
+            Id="59f5c71d-40c6-47c4-9f71-12e0a47b2013">
+            <useCaseMoniker
+              Id="764f0280-60c1-4d6c-9fc4-2973dcfb36c8"
+              LastKnownName="Protect Data at Rest"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+          <include
+            Id="da67ce2b-aa2f-46a3-a31d-4b20d55e39ff">
+            <useCaseMoniker
+              Id="519b4725-62c0-44f6-a3dc-566a47595d47"
+              LastKnownName="Validate User Input"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+          <include
+            Id="34b997a8-cfd9-4ba1-85bc-4db2e6d973b7">
+            <useCaseMoniker
+              Id="fffe1fed-4d33-44fd-a530-1a459a2791bf"
+              LastKnownName="Anti-Phishing verification"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+          <include
+            Id="1514ab02-3b62-4fc8-b21a-b81da2772aaf">
+            <useCaseMoniker
+              Id="750337ab-4ba2-4ded-8990-36c5175c583c"
+              LastKnownName="Prevent Caching in Browser"
+              LastKnownLocation="Online Banking.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d5b2b583-d995-4baf-ab2c-68ae8a442a97"
+        name="Unlock Customer ID"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="9951cc36-3f66-4f24-b2f7-648f3c5735cd"
+        name="Unauthorized User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="5754c021-1b3d-45fa-92c3-5ecea33a9233"
+            isDerived="false"
+            sourceEndRoleName="Observer"
+            targetEndRoleName="Observe PIN"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d6a3c0ec-0f4d-4fea-91f4-8d632ddfdad7"
+              LastKnownName="Observe PIN"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fcdc5d4f-b6fc-42ae-ac40-4c1a64b60db1"
+                  name="Observer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="47626ecd-2fcb-4f1e-8ced-6f3d4836144a"
+                  name="Observe PIN"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="91d3e9fa-4e60-4d87-8b00-5510338bb999"
+            isDerived="false"
+            sourceEndRoleName="Observer"
+            targetEndRoleName="Observe Account Information"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="21993cd7-b147-49c8-aa2d-7432da990b0e"
+              LastKnownName="Observe Account Information"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="777b759e-e358-40ec-a9ca-75b1cffe04e6"
+                  name="Observer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="737760d2-8727-4b1a-9fbe-00a2bc13308c"
+                  name="Observe Account Information"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="81dc3718-5a19-4b27-bfd2-6b5be5bb8698"
+        name="Man-in-the-Middle"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="2ae985bc-f6df-4a9b-bbfe-eb12fd5f6dbd"
+            isDerived="false"
+            sourceEndRoleName="Skimmer"
+            targetEndRoleName="Read Card"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="02a39086-f882-459e-ac37-f34b3b094040"
+              LastKnownName="Read Card"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="244ce1a5-1902-4efd-99c9-7197ba2d2bab"
+                  name="Skimmer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="526aac8e-7252-4b2b-afbb-e48d1646b266"
+                  name="Read Card"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ea8eb22f-e7e4-480a-8f79-549ab5031385"
+            isDerived="false"
+            sourceEndRoleName="Skimmer"
+            targetEndRoleName="Steal Physical Card"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="12116ddb-299f-41d4-a4e6-64a0b2f6c6e6"
+              LastKnownName="Steal Physical Card"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5680c007-32cd-4c2c-b405-033d1184159a"
+                  name="Skimmer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c694dca-ae0c-4473-992a-fd215b5be327"
+                  name="Steal Physical Card"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="85289936-d6cf-4e33-93d2-870bf1df95ca"
+            isDerived="false"
+            sourceEndRoleName="Skimmer"
+            targetEndRoleName="Modify Data in Transit (External)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e240b4d4-b035-40c6-9adf-ad795187afbc"
+              LastKnownName="Observe/Modify Data in Transit (External)"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a19aa39b-e692-43ad-92f7-13eefa665c4c"
+                  name="Skimmer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="070139fb-d223-4d1c-9e21-3740813d32b2"
+                  name="Modify Data in Transit (External)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1d391a1f-c34f-41a2-a50f-bf9dc64c9117"
+            isDerived="false"
+            sourceEndRoleName="Skimmer"
+            targetEndRoleName="Observe Data in Transit (External)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5041c282-d720-415e-b451-445412648b0f"
+              LastKnownName="Observe Data in Transit (External)"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="298ce3b2-47e2-4dfd-817d-9d78751b8fd8"
+                  name="Skimmer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea53fcd2-c352-43ec-922f-138872936fad"
+                  name="Observe Data in Transit (External)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d6a3c0ec-0f4d-4fea-91f4-8d632ddfdad7"
+        name="Observe PIN"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="2f27be65-e98e-4289-b996-5d1685445ed7"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="21993cd7-b147-49c8-aa2d-7432da990b0e"
+        name="Observe Account Information"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="57e7f763-6990-44d3-9e52-668e9a67bc14"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a"
+              LastKnownName="View Account Statement"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="02a39086-f882-459e-ac37-f34b3b094040"
+        name="Read Card"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="4d666028-6b89-4818-a4da-766131c9b285"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7fb15f0a-c97d-4d66-80db-033cc8e10222"
+        name="Observe/Modify Data in Transit (Internal)"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="2f9ba910-38e3-486f-8330-b85769107330"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a"
+              LastKnownName="View Account Statement"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5041c282-d720-415e-b451-445412648b0f"
+        name="Observe Data in Transit (External)"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="9d8880aa-b7b0-4364-807e-96e143e08da6"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="7e85156b-e0f0-49c9-813e-810b6ff7b39b"
+              LastKnownName="Update Customer Profile"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+          <dependency
+            Id="6a316b48-c9f1-4ed3-94cd-107324156079">
+            <useCaseMoniker
+              Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a"
+              LastKnownName="View Account Statement"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e240b4d4-b035-40c6-9adf-ad795187afbc"
+        name="Observe/Modify Data in Transit (External)"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="231fb648-a8be-4d10-b511-434656b776ac"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="6d4a7e49-a1cf-4090-8db4-31bbe6851df1"
+              LastKnownName="Transfer Funds"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="25440b2e-a7ae-409e-944f-ee7abcc81580"
+        name="Inside Man"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="acfe2d99-1826-4de1-b7cf-b89ff0320a0d"
+            isDerived="false"
+            sourceEndRoleName="Inside Man"
+            targetEndRoleName="Observe Data in Transit (Internal)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7fb15f0a-c97d-4d66-80db-033cc8e10222"
+              LastKnownName="Observe/Modify Data in Transit (Internal)"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b07bbdeb-76ae-40fa-8770-2b5ea6602dad"
+                  name="Inside Man"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f7c2eba7-7aa5-4275-af68-51007a26c1ed"
+                  name="Observe Data in Transit (Internal)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="165a53c7-7086-4804-ba98-5d988d18e6ce"
+            isDerived="false"
+            sourceEndRoleName="Inside Man"
+            targetEndRoleName="Modify Data  (Internal)"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b18980a3-65d7-45da-a3c3-82c0eb84f186"
+              LastKnownName="Modify Data  (Internal)"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d7bb5f6-bbbc-4527-bc99-7f2821e89c52"
+                  name="Inside Man"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d53bad7-a935-4f01-bf70-a6becdb4b2c3"
+                  name="Modify Data  (Internal)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b18980a3-65d7-45da-a3c3-82c0eb84f186"
+        name="Modify Data  (Internal)"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="09086bc8-db5a-4014-9299-aa71dc4f94c8"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="6d4a7e49-a1cf-4090-8db4-31bbe6851df1"
+              LastKnownName="Transfer Funds"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="12116ddb-299f-41d4-a4e6-64a0b2f6c6e6"
+        name="Steal Physical Card"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="a6fc902f-8253-4b10-9ba9-2d1b19d000d5"
+        name="Tamperor"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="41c4434d-213b-4b3e-b03c-77d7b4862e9b"
+        name="Illegally logging into the bank's application using SQL Injection"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="577033ab-766c-40dc-86f4-695f31971e17"
+            name="&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="3e3f8822-8e09-4279-9cad-b22c70e03fa7"
+        name="Hacker"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="574e48a6-dfa8-4210-aedf-bd0dd028baad"
+            isDerived="false"
+            sourceEndRoleName="Hacker"
+            targetEndRoleName="Illegally logging into the bank's application using SQL Injection"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="41c4434d-213b-4b3e-b03c-77d7b4862e9b"
+              LastKnownName="Illegally logging into the bank's application using SQL Injection"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="18986a1d-bed0-495b-9af2-21752416e192"
+                  name="Hacker"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="191df0d5-7e81-424d-950e-c1b26c195c5e"
+                  name="Illegally logging into the bank's application using SQL Injection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="018c92c2-b809-42cc-9a8e-54a173705fc8"
+        name="Evil Authorized User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e6e31749-b76f-4827-8986-1225933b9263"
+            isDerived="false"
+            sourceEndRoleName="Evil Authorized User"
+            targetEndRoleName="Infecting the Bank's Online Server Cross Site Scripting"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d49104bf-85f1-410a-839e-ee96899260a8"
+              LastKnownName="Infecting the Bank's Online Server Cross Site Scripting"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f10b4dd5-dd88-4178-882e-3e6c66e994cc"
+                  name="Evil Authorized User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6cddc3cb-2ed0-433f-9bd2-5c1c9f225791"
+                  name="Infecting the Bank's Online Server Cross Site Scripting"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d49104bf-85f1-410a-839e-ee96899260a8"
+        name="Infecting the Bank's Online Server Cross Site Scripting"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="c1b690d1-64a7-4a38-9280-deaace41fabd"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="4bf11146-8e1a-4143-a125-2ee066941ff6"
+              LastKnownName="Validate ID / Password"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c9ef1767-7caf-4ea3-87c8-448ac70f8c8a"
+        name="Stealing bank customer's credentials using Phishing attack"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="df4b384c-d634-4928-a559-d301b85b56fe"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="57a149e6-f710-49f8-8d43-ca9dcc35e96a"
+              LastKnownName="View Account Statement"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="41ad3384-d973-4954-b2cb-ebe1bf4df18b"
+        name="Crook"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="9c769929-2671-4802-b0ec-19a04271c72b"
+            isDerived="false"
+            sourceEndRoleName="Crook"
+            targetEndRoleName="Stealing bank customer's credentials using Phishing attack"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c9ef1767-7caf-4ea3-87c8-448ac70f8c8a"
+              LastKnownName="Stealing bank customer's credentials using Phishing attack"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="63b6bab4-eb22-448a-b86b-634e743e52db"
+                  name="Crook"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e858d780-d3dc-466e-b471-b713fbb03945"
+                  name="Stealing bank customer's credentials using Phishing attack"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3f138353-c540-432b-a7ff-89b97108dba4"
+        name="Protect Data in Transit"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="7db5d6d4-a6ba-4560-844e-895bb57b9cb9"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="7fb15f0a-c97d-4d66-80db-033cc8e10222"
+              LastKnownName="Observe/Modify Data in Transit (Internal)"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+          <dependency
+            Id="05706e47-5447-4203-a3b9-40489483d968"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="e240b4d4-b035-40c6-9adf-ad795187afbc"
+              LastKnownName="Observe/Modify Data in Transit (External)"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="764f0280-60c1-4d6c-9fc4-2973dcfb36c8"
+        name="Protect Data at Rest"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="09093849-a8f2-4510-856f-9a266bbcd253"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="b18980a3-65d7-45da-a3c3-82c0eb84f186"
+              LastKnownName="Modify Data  (Internal)"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="519b4725-62c0-44f6-a3dc-566a47595d47"
+        name="Validate User Input"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="6f2a6c3c-6bc1-44e7-b88a-810b63b73c5f"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="41c4434d-213b-4b3e-b03c-77d7b4862e9b"
+              LastKnownName="Illegally logging into the bank's application using SQL Injection"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+          <dependency
+            Id="844f2273-7b36-453e-a245-d003f9ba134b"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="d49104bf-85f1-410a-839e-ee96899260a8"
+              LastKnownName="Infecting the Bank's Online Server Cross Site Scripting"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fffe1fed-4d33-44fd-a530-1a459a2791bf"
+        name="Anti-Phishing verification"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="b61243a8-4141-4771-b43f-c9a09fd16b03"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="c9ef1767-7caf-4ea3-87c8-448ac70f8c8a"
+              LastKnownName="Stealing bank customer's credentials using Phishing attack"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="750337ab-4ba2-4ded-8990-36c5175c583c"
+        name="Prevent Caching in Browser"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="a5f19649-9859-4ca0-b0ca-a2ebd6557d22"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="21993cd7-b147-49c8-aa2d-7432da990b0e"
+              LastKnownName="Observe Account Information"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="8a6674f6-6f83-4ec6-af9d-40caa2607ab4"
+        name="Con Artist"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cd629bf7-9d50-4b48-aabb-7cf81cb6cf9d"
+            isDerived="false"
+            sourceEndRoleName="Con Artist"
+            targetEndRoleName="Con Artist Posing as User to Get PIN"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9329a835-1d4e-4bb5-a00e-c42e07700d2c"
+              LastKnownName="Social Engineering to Obtain PIN"
+              LastKnownLocation="Online Banking.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="65647430-d88f-44e2-9c52-218e9524e095"
+                  name="Con Artist"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a0bfc985-5264-4ca6-973e-0ebfd580f5c5"
+                  name="Con Artist Posing as User to Get PIN"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9329a835-1d4e-4bb5-a00e-c42e07700d2c"
+        name="Social Engineering to Obtain PIN"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="330a3107-3b80-4384-b66b-f68eabd632ba"
+            name="&lt;&lt;Threaten&gt;&gt;">
+            <useCaseMoniker
+              Id="d5b2b583-d995-4baf-ab2c-68ae8a442a97"
+              LastKnownName="Unlock Customer ID"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4b91a967-2bf0-4585-b376-31d22e716cb1"
+        name="Protect from Social Engineering"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="2db5fd36-087a-4e1b-b4e1-b552ba8cef18"
+            name="&lt;&lt;Mitigate&gt;&gt;">
+            <useCaseMoniker
+              Id="9329a835-1d4e-4bb5-a00e-c42e07700d2c"
+              LastKnownName="Social Engineering to Obtain PIN"
+              LastKnownLocation="Online Banking.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="752b54f0-0350-416b-80ff-9628ff66f543"
+        name="OBClient"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cd96a9a0-ad97-48dd-bc20-cef5cb8cad9a"
+        name="BankServer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b5e74743-9f1b-4c66-b5f6-14b664799387"
+        name="OBOperator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="03ee3521-d6bc-498d-b901-fc76587f1d0e"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d829c6ad-a235-42bb-8479-6c95d74101e7"
+        LastKnownName="OnlineBanking"
+        LastKnownLocation="Package_1720.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="abed427c-dd2f-449b-af9a-88eb4cf0becf"
+        LastKnownName="OBOperator"
+        LastKnownLocation="Package1_1720.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6dd2c7b9-92e4-4be0-8824-33e9b9d95b7b"
+        LastKnownName="OnlineBanking.BusinessProcess"
+        LastKnownLocation="Package2_1720.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="daaccd41-dd45-4359-b690-927b375d38b8"
+        LastKnownName="OnlineBanking.DAL"
+        LastKnownLocation="Package_0856.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="83f185cf-c08e-426a-b796-df06f78ef594"
+        LastKnownName="OnlineBanking.DataModel"
+        LastKnownLocation="Package1_0856.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,12 @@
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\OnlineBanking.DAL.dll.config
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\OnlineBanking.DAL.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\OnlineBanking.DAL.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\EntityFramework.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\OnlineBanking.DataModel.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\OnlineBanking.DataModel.pdb
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\EntityFramework.xml
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\obj\Release\OnlineBanking.DAL.csprojResolveAssemblyReference.cache
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\obj\Release\OnlineBanking.DAL.dll
+C:\Users\kdinsmo\Documents\TTU\CS 5332 Secure Software Engineering\Assignments\Online Banking\OnlineBanking.DAL\obj\Release\OnlineBanking.DAL.pdb

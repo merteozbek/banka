@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.month</h2>
+
+<form method="post">
+
+    <table style="width:100%;padding-top: 0px;margin-top: 0px;">
+        <col width="20%">
+        <col width="80%">
+
+        <tr>
+            <td>Enter Account Number</td>
+            <td><input type="text" name="accountNumber" id="accountNumber" /></td>
+        </tr>
+        <tr>
+            <td>Enter Month:</td>
+            <td>
+                <select name="month" id="month" size="1">
+                    <option value="01">January</option>
+                    <option value="02">February</option>
+                    <option value="03">March</option>
+                    <option value="04">April</option>
+                    <option value="05">May</option>
+                    <option value="06">June</option>
+                    <option value="07">July</option>
+                    <option value="08">August</option>
+                    <option value="09">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+   
+
+    <br/>
+    <input type="submit" value="Get Statement" />
+    <br/>
+</form>
+<br/><br />
